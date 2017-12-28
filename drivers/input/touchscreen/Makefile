@@ -104,3 +104,5 @@ obj-$(CONFIG_TOUCHSCREEN_NT36xxx)	+= NVT_Touch/
 #Huaqin modify for ZQL1650-1357 by diganyun at 2018/05/22 start
 obj-$(CONFIG_TOUCHSCREEN_SYNAPTICS_DSX) += synaptics_dsx/
 #Huaqin modify for ZQL1650-1357 by diganyun at 2018/05/22 end
+obj-$(CONFIG_TOUCHSCREEN_SWEEP2WAKE)	+= sweep2wake.o
+obj-$(CONFIG_TOUCHSCREEN_DOUBLETAP2WAKE)	+= doubletap2wake.o
