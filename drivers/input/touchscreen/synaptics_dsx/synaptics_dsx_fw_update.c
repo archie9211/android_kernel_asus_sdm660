@@ -1572,7 +1572,6 @@ static int fwu_write_f34_v7_command_single_transaction(unsigned char cmd)
 
 	return 0;
 }
-
 static int fwu_write_f34_v7_command(unsigned char cmd)
 {
 	int retval;
