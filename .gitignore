@@ -123,3 +123,11 @@ linux-stable.sh
 oldReleases/
 out/
 
+
+*.cmd
+*.ko
+*.mod.c
+modules.order
+Module.symvers
+*.o
+.tmp_versions
